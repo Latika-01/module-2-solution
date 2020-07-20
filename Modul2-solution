@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>module-2 solutions</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="module2-assignment.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+        <!--jQuery library--> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!--Latest compiled and minified JavaScript--> 
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+        <style>
+            @media(min-width:992px) { .col-lg-1 , .col-lg-2,.col-lg-3,.col-lg-4
+                 .col-lg-5,.col-lg-6,   .col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,
+                 .col-lg-11, .col-lg-12,  {float: left;border:1px}
+                .col-lg-1{width:8.33%;} .col-lg-2{width:16.66%;} .col-lg-3{width:25%}
+                .col-lg-4{width: 33%;} .col-lg-5{width: 41.66%;} .col-lg-6 {width: 50%;}
+                .col-lg-7{width: 58.33%;} .col-lg-8{width: 66.66%;} .col-lg-9{width: 74.99%;}
+                .col-lg-10{width: 83.33%;} .col-lg-11{width: 91.66%}  .col-lg-12{width: 100%;} 
+
+            }
+            @media(min-width:768px) and (max-width:991px){ .col-md-1, .col-md-2,.col-md-3,.col-md-4,
+                .col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12,
+                {float: left; border: 1px}
+                .col-md-1{width:8.33%;} .col-md-2{width:16.66%;} .col-md-3{width:25%}
+                .col-md-4{width: 33%;} .col-md-5{width: 41.66%;} .col-md-6 {width: 50%;}
+                .col-md-7{width: 58.33%;} .col-md-8{width: 66.66%;} .col-md-9{width: 74.99%;}
+                .col-md-10{width: 83.33%;} .col-md-11{width: 91.66%}  .col-md-12{width: 100%;} 
+
+            }
+            @media(max-width:767px){
+                .col-sm-1,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,
+                .col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11,.col-sm-12, {float: left; border :1px}
+                col-sm-1{width:8.33%;} .col-sm-2{width:16.66%;} .col-sm-3{width:25%}
+                .col-sm-4{width: 33%;} .col-sm-5{width: 41.66%;} .col-sm-6 {width: 50%;}
+                .col-sm-7{width: 58.33%;} .col-sm-8{width: 66.66%;} .col-sm-9{width: 74.99%;}
+                .col-sm-10{width: 83.33%;} .col-sm-11{width: 91.66%}  .col-sm-12{width: 100%;} 
+
+            }
+        </style>
+    </head>
+    
+    <body>
+     <p> Our Menu </p>
+     <div class="container-fluid">
+    <div class="row"> 
+        <div class="col-md-4  col-sm-6"> <p style="text-align:right">Chicken</p><br> The chicken is a type of domesticated fowl, a subspecies of the red jungle fowl. 
+                Chickens are one of the most common and widespread domestic animals, with a total population of 23.7 billion as of 2018, 
+                up from more than 19 billion in 2011. There are more chickens in the world than any other bird or domesticated fowl.</div>
+        <div class="col-md-4  col-sm-6"> <p style="text-align:right">Sushi</p><br> Sushi is traditionally made with medium-grain white rice,
+                though it can be prepared with brown rice or short-grain rice. It is very often prepared with seafood, 
+                such as squid, eel, yellowtail, salmon, tuna or imitation crab meat. Many types of sushi are vegetarian. 
+                It is often served with pickled ginger (gari), wasabi, and soy sauce. Daikon radish or pickled daikon (takuan) are popular garnishes for the dish.</div>
+        <div class="col-md-4  col-sm-6"> <p style="text-align: right">Beef</p><br> Beef is the meat of cattle (Bos taurus). It is categorized as red meat — a term used for the meat of mammals,
+                which contains higher amounts of iron than chicken or fish.
+                Usually eaten as roasts, ribs, or steaks, beef is also commonly ground or minced. Patties of ground beef are often used in hamburgers. </div>
+    </div>
+   </div>
+   </body>
+</html>
